@@ -35,3 +35,14 @@ HTTP/1.1 308 Permanent Redirect
 location: https://www.fermyon.com/blog/how-to-think-about-wasm
 content-length: 0
 ```
+
+
+
+```
+
+ spin up --listen 0.0.0.0:3000 
+Serving HTTP on address http://0.0.0.0:3000
+Available Routes:
+  shortener: http://0.0.0.0:3000 (wildcard)
+
+```
